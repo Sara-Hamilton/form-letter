@@ -5,9 +5,75 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Acceptance Letter</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your own acceptance letter!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="school">A school</label>
+            <input id="school" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="profession">A profession</label>
+            <input id="profession" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="applications">A number</label>
+            <input id="applications" class="form-control" type="number">
+          </div>
+          <div class="form-group">
+            <label for="place">A place</label>
+            <input id="place" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="date">A date</label>
+            <input id="date" class="form-control" type="date">
+          </div>
+          <div class="form-group">
+            <label for="transportation">A mode of transportation</label>
+            <input id="transportation" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="noun1">A noun</label>
+            <input id="noun1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="noun2">A noun</label>
+            <input id="noun2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="name2">A name</label>
+            <input id="name2" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Show me the letter!</button>
+        </form>
+      </div>
 
+      <div id="letter">
+        <h1>Congratulations!</h1>
+
+        <p>Dear <span class="name"></span>,</p>
+
+        <p>We are pleased to announce your acceptance to <span class="school"></span> to study to become a <span class="profession"></span>. The school received <span class="applications"></span>. Our campus is located at: <span class="place"></span>. Classes start on <span class="date"></span> and we recommend you take a <span class="transporatation"></span> to arrive on your first day. Do not forget to bring your <span class="noun1"></span>
+        and your <span class="noun2"></span>!
+        </p>
+
+        <p>Sincerely,</p>
+        <br>
+        <!-- signature -->
+        <p class="name2"></p>
+        <p>Dean of Admissions at <span class="school"></span>
+      </div>
+
+
+
+    </div>
   </body>
 </html>
